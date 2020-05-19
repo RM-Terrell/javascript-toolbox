@@ -1,1 +1,6 @@
 .vscode
+rust/target/
+rust/Cargo.lock
+__pycache__/
+/python/anvil/anvil.py
+/python/anvil/anvil_tests.py

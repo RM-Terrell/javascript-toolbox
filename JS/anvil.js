@@ -1,8 +1,3 @@
-var num = 1
+function functionToTest() {
 
-while(num <= 20) {
-    if((num % 4)) {
-        console.log(num);
-    }
-    num++
 }
