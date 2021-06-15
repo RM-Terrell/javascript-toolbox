@@ -1,6 +1,8 @@
 # Brokkr's Workshop
-![the_third_gift](/static/images/the_third_gift.bmp)
-[^1] Image credit to Elmer Boyd Smith
+![the_third_gift](/static/images/the_third_gift.jpg)
+
+<sub>Image credit to Elmer Boyd Smith</sub>
+
 
 This repo is a workshop of sorts containing solutions to problems from around the web and in my own personal work that I found useful, interesting, infuriating, or all of the above. From famous algorithms like the bubble sort and binary tree inversions, to useful JavaScript .map() functions and other tricks.
 
