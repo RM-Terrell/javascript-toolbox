@@ -1,21 +1,23 @@
 from typing import List
 
-def even_odd_mutation(input_array: List[int]):
+
+def even_odd_mutation(input_list: List[int]):
     """
     Function to reorder an array / list, with even elements first and odd elements second.
     """
     next_even = 0
-    list_end = len(input_array) - 1
-    odd_count = 0
-    while (next_even < list_end) and ((odd_count + next_even) < len(input_array)):
-        if input_array[next_even] % 2 == 0:
+    next_odd = len(input_list) - 1
+
+    while (next_even < next_odd):
+        if input_list[next_even] % 2 == 0:
             next_even += 1
         else:
-            input_list[next_even], input_list[list_end] = input_list[list_end], input_list[next_even]
-            odd_count += 1
+            input_list[next_even], input_list[next_odd] = input_list[next_odd], input_list[next_even]
+            next_odd -= 1
 
 
 if __name__ == "__main__":
-    input_list = [2,4,6,8,7,7,7,7]
-    even_odd_mutation(input_list)
-    print(input_list)
+    input_list = [2, 4, 6, 8, 7, 7, 7, 7]
+    input_list_2 = [9, 4, 5, 2, 4, 13, 2]
+    even_odd_mutation(input_list_2)
+    print(input_list_2)
